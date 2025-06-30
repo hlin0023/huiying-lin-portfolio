@@ -1,19 +1,25 @@
 {
   "files": {
     "main.css": "/huiying-lin-portfolio/static/css/main.8fd54244.css",
-    "main.js": "/huiying-lin-portfolio/static/js/main.aabbd4eb.js",
+    "main.js": "/huiying-lin-portfolio/static/js/main.5dc97c82.js",
     "static/media/hero.jpg": "/huiying-lin-portfolio/static/media/hero.da161493b30300c4f01e.jpg",
     "static/media/intern.jpg": "/huiying-lin-portfolio/static/media/intern.3d5e4830d52ed6dfddab.jpg",
     "static/media/hero2.jpg": "/huiying-lin-portfolio/static/media/hero2.746b8d395450d165579b.jpg",
+    "static/media/gym.jpg": "/huiying-lin-portfolio/static/media/gym.b8a9b5e9791028036077.jpg",
+    "static/media/badminton.jpg": "/huiying-lin-portfolio/static/media/badminton.7d8f9f8012f3a2a827ee.jpg",
     "static/media/intern2.jpg": "/huiying-lin-portfolio/static/media/intern2.40f71a9a5d08215cabd3.jpg",
+    "static/media/running.jpg": "/huiying-lin-portfolio/static/media/running.aada8aa2bdf19a2ed3ec.jpg",
+    "static/media/coffee.jpg": "/huiying-lin-portfolio/static/media/coffee.0c875b5f81b4f553ae13.jpg",
+    "static/media/swimming.jpg": "/huiying-lin-portfolio/static/media/swimming.b93c0cf595eaae567140.jpg",
+    "static/media/cocktail.jpg": "/huiying-lin-portfolio/static/media/cocktail.17e1dd67c3d0e32096b2.jpg",
     "static/media/hk2.jpg": "/huiying-lin-portfolio/static/media/hk2.664e0e260c60d09ab703.jpg",
     "static/media/hk1.jpg": "/huiying-lin-portfolio/static/media/hk1.571dd018cc16466285f3.jpg",
     "index.html": "/huiying-lin-portfolio/index.html",
     "main.8fd54244.css.map": "/huiying-lin-portfolio/static/css/main.8fd54244.css.map",
-    "main.aabbd4eb.js.map": "/huiying-lin-portfolio/static/js/main.aabbd4eb.js.map"
+    "main.5dc97c82.js.map": "/huiying-lin-portfolio/static/js/main.5dc97c82.js.map"
   },
   "entrypoints": [
     "static/css/main.8fd54244.css",
-    "static/js/main.aabbd4eb.js"
+    "static/js/main.5dc97c82.js"
   ]
 }
