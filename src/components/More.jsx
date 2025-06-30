@@ -7,7 +7,13 @@ import image4 from '../img/hk2.jpg'
 import image5 from '../img/intern.jpg'
 import image6 from '../img/intern2.jpg'
 
-// Sample images - replace with your actual images
+import casual1 from '../img/gym.jpg'
+import casual2 from '../img/running.jpg'
+import casual3 from '../img/badminton.jpg'
+import casual4 from '../img/swimming.jpg'
+import casual5 from '../img/coffee.jpg'
+import casual6 from '../img/cocktail.jpg'
+
 const galleryImages = [
   {
     id: 1,
@@ -47,6 +53,45 @@ const galleryImages = [
   }
 ];
 
+const galleryCasualImages = [
+  {
+    id: 1,
+    src: casual1,
+    alt: 'Gym',
+    caption: 'Gym'
+  },
+  {
+    id: 2,
+    src: casual2,
+    alt: 'Running',
+    caption: 'Run'
+  },
+  {
+    id: 3,
+    src: casual3,
+    alt: 'Badmintion',
+    caption: 'Badmintion'
+  },
+  {
+    id: 4,
+    src: casual4,
+    alt: 'Swimming',
+    caption: 'Swimming'
+  },
+  {
+    id: 5,
+    src: casual5,
+    alt: 'Coffee',
+    caption: 'Making Coffee'
+  },
+  {
+    id: 6,
+    src: casual6,
+    alt: 'Cocktails',
+    caption: 'Making Cocktails'
+  }
+];
+
 const More = () => {
   return (
     <section id="more" className="section-alt">
@@ -69,6 +114,26 @@ const More = () => {
             </div>
           ))}
         </div>
+
+        <p className="section-subtitle">Something beyound my study and work</p>
+
+
+        <div className="gallery-grid">
+          {galleryCasualImages.map((image) => (
+            <div key={image.id} className="gallery-item">
+              <img 
+                src={image.src} 
+                alt={image.alt} 
+                className="gallery-image"
+                loading="lazy"
+              />
+              <div className="image-caption">
+                <p>{image.caption}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
       </div>
     </section>
   );
