@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hlin0023/huiying-lin-portfolio.git/static/css/main.8fd54244.css",
+    "main.js": "/hlin0023/huiying-lin-portfolio.git/static/js/main.d5cb2e60.js",
+    "static/media/hero.jpg": "/hlin0023/huiying-lin-portfolio.git/static/media/hero.da161493b30300c4f01e.jpg",
+    "static/media/intern.jpg": "/hlin0023/huiying-lin-portfolio.git/static/media/intern.3d5e4830d52ed6dfddab.jpg",
+    "static/media/hero2.jpg": "/hlin0023/huiying-lin-portfolio.git/static/media/hero2.746b8d395450d165579b.jpg",
+    "static/media/intern2.jpg": "/hlin0023/huiying-lin-portfolio.git/static/media/intern2.40f71a9a5d08215cabd3.jpg",
+    "static/media/hk2.jpg": "/hlin0023/huiying-lin-portfolio.git/static/media/hk2.664e0e260c60d09ab703.jpg",
+    "static/media/hk1.jpg": "/hlin0023/huiying-lin-portfolio.git/static/media/hk1.571dd018cc16466285f3.jpg",
+    "index.html": "/hlin0023/huiying-lin-portfolio.git/index.html",
+    "main.8fd54244.css.map": "/hlin0023/huiying-lin-portfolio.git/static/css/main.8fd54244.css.map",
+    "main.d5cb2e60.js.map": "/hlin0023/huiying-lin-portfolio.git/static/js/main.d5cb2e60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fd54244.css",
+    "static/js/main.d5cb2e60.js"
+  ]
+}
