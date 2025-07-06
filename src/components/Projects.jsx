@@ -3,8 +3,21 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <section className="projects" id="projects">
-      <h2>Software Projects</h2>
+    <section className="projects" id="projects">  
+    <h2>Software Projects</h2>
+      <div className="project">
+        <h3>Phishing Website Detection</h3>
+        <a href="https://github.com/hlin0023/phishing-detectionML" target="_blank" rel="noopener noreferrer">Machine Learning Project</a>
+        <p className="tech">Python • May 2025 </p>
+        <ul>
+          <li>Built an ML pipeline to detect phishing websites using engineered features from URLs, page titles, and HTML metadata.</li>
+          <li>Applied feature selection (correlation, MI, chi-square) to reduce noise and improve generalisation across 5-fold CV.</li>
+          <li>Evaluated Naive Bayes, Decision Tree, and SVM models; achieved over 98% accuracy, with Decision Tree performing best.</li>
+          <li>Tuned models using nested cross-validation and GridSearchCV, demonstrating strong understanding of ML model optimisation.</li>
+          <li>Developed sentiment-based and financial indicator features to enhance model interpretability and predictive power.</li>
+        </ul>
+      </div>
+
       <div className="project">
         <h3>Hotel Reservation System</h3>
         <div className="contact-links">
