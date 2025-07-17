@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
         <div className="social-links">
           <a href="https://github.com/hlim0023" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/huiying-lin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="www.linkedin.com/in/harrison-huiying-l-9b19b21b0" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
     </section>
