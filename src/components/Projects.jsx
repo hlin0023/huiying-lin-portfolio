@@ -42,7 +42,7 @@ const Projects = () => {
         <h3>Tripo | IOS Developer</h3>
         <a href="https://www.figma.com/proto/dylExBP52fIbJAFc6rHGTy/Untitled?node-id=1-2&starting-point-node-id=1%3A2" target="_blank" rel="noopener noreferrer">App figma show</a>
         <a> </a>
-        <a href="https://https://github.com/hlin0023/IosTravelApp.com/hlin0023/hotel-booking-project/tree/main" target="_blank" rel="noopener noreferrer">code</a>
+        <a href="https://github.com/hlin0023/IosTravelApp" target="_blank" rel="noopener noreferrer">code</a>
         <p className="tech">Swift / Figma • March 2023 - Jul 2023</p>
         <ul>
           <li>Developed CI/CD pipeline for deployment</li>
