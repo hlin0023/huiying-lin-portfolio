@@ -11,16 +11,24 @@ const Skills = () => {
           <p>Java, Python, C#, SQL, TypeScript, JavaScript, Swift</p>
         </div>
         <div className="skill-category">
+          <h3>ML & Data Science</h3>
+          <p>Scikit-learn, TensorFlow, Pandas, NumPy, Jupyter, Power BI</p>
+        </div>
+        <div className="skill-category">
           <h3>Databases</h3>
           <p>MySQL, MS SQL Server, MongoDB, NoSQL (Firebase)</p>
         </div>
         <div className="skill-category">
           <h3>Cloud & DevOps</h3>
-          <p>AWS (Lambda, EC2, S3), Volcano Engine, CI/CD pipelines</p>
+          <p>Azure, AWS (Lambda, EC2, S3), Volcano Engine(TikTok), CI/CD pipelines, Git</p>
         </div>
         <div className="skill-category">
           <h3>Web & APIs</h3>
-          <p>RESTful API design, GraphQL, JSON, HTML5/CSS3</p>
+          <p>RESTful API design, React, GraphQL, JSON, HTML5/CSS3</p>
+        </div>
+        <div className="skill-category">
+          <h3>Other Tools</h3>
+          <p>Hive, Tableau, Agile/Scrum, Linux/Unix familiarity</p>
         </div>
       </div>
     </section>

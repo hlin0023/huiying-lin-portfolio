@@ -3,8 +3,21 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <section className="projects" id="projects">
-      <h2>Software Projects</h2>
+    <section className="projects" id="projects">  
+    <h2>Software Projects</h2>
+      <div className="project">
+        <h3>Phishing Website Detection</h3>
+        <a href="https://github.com/hlin0023/phishing-detectionML" target="_blank" rel="noopener noreferrer">Machine Learning Project</a>
+        <p className="tech">Python • May 2025 </p>
+        <ul>
+          <li>Built an ML pipeline to detect phishing websites using engineered features from URLs, page titles, and HTML metadata.</li>
+          <li>Applied feature selection (correlation, MI, chi-square) to reduce noise and improve generalisation across 5-fold CV.</li>
+          <li>Evaluated Naive Bayes, Decision Tree, and SVM models; achieved over 98% accuracy, with Decision Tree performing best.</li>
+          <li>Tuned models using nested cross-validation and GridSearchCV, demonstrating strong understanding of ML model optimisation.</li>
+          <li>Developed sentiment-based and financial indicator features to enhance model interpretability and predictive power.</li>
+        </ul>
+      </div>
+
       <div className="project">
         <h3>Hotel Reservation System</h3>
         <div className="contact-links">
@@ -29,7 +42,7 @@ const Projects = () => {
         <h3>Tripo | IOS Developer</h3>
         <a href="https://www.figma.com/proto/dylExBP52fIbJAFc6rHGTy/Untitled?node-id=1-2&starting-point-node-id=1%3A2" target="_blank" rel="noopener noreferrer">App figma show</a>
         <a> </a>
-        <a href="https://https://github.com/hlin0023/IosTravelApp.com/hlin0023/hotel-booking-project/tree/main" target="_blank" rel="noopener noreferrer">code</a>
+        <a href="https://github.com/hlin0023/IosTravelApp" target="_blank" rel="noopener noreferrer">code</a>
         <p className="tech">Swift / Figma • March 2023 - Jul 2023</p>
         <ul>
           <li>Developed CI/CD pipeline for deployment</li>

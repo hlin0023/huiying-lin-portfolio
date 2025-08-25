@@ -7,8 +7,9 @@ const Hero = () => {
       <div className="hero-content">
         <h1>Harrison(Huiying) Lin</h1>
         <h2> Software engineer | Data Engineer | Full Stack Developer | Machine Learning Engineer </h2>
+        <p>Aspiring Machine Learning Engineer with strong foundations in Python, SQL, and cloud-based analytics.</p>
         <p>
-          Building scalable full-stack applications with Java, Python, and C#. 
+          Building scalable full-stack applications with Java, Python, and C#.
           Passionate about system reliability and DevOps best practices.
         </p>
         <div className="contact-info">
@@ -18,7 +19,7 @@ const Hero = () => {
         </div>
         <div className="social-links">
           <a href="https://github.com/hlim0023" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/huiying-lin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/harrison-huiying-l-9b19b21b0" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
     </section>
