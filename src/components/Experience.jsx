@@ -7,6 +7,18 @@ const Experience = () => {
       <h2>Professional Experience</h2>
       
       <div className="job">
+        <h3>Blackhall & Pearl </h3>
+        <p className="job-title"> Software Engineer (Part-time) • July 2025 - Present </p>
+        <ul>
+          <li>Developed and maintained full-stack features using React and TypeScript for an AI-powered assistant, enhancing user experience and operational efficiency.</li>
+          <li>Designed and consumed GraphQL APIs with Apollo Client, streamlining data fetching and reducing over-fetching.</li>
+          <li>Designed and maintained backend features and APIs for a production web app (Next.js, Supabase, Sanity CMS).</li>
+          <li>Collaborated on CI pipelines and code reviews in Bitbucket, improving deployment reliability.</li>
+          <li>Built data visualisation dashboards and internal tools to support operational insights.</li>
+        </ul>
+      </div>
+
+      <div className="job">
         <h3>TikTok Ltd. (E-Commerce department)</h3>
         <p className="job-title">Back-end Developer Intern • Oct 2021 - Mar 2022</p>
         <ul>
