@@ -40,7 +40,7 @@ body {
 /* Smooth scroll padding for fixed header */
 section {
   scroll-margin-top: 80px;
-  padding: 6rem 1.5rem;
+  padding: 3.5rem 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -52,7 +52,7 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   color: var(--dark);
   text-align: center;
   position: relative;
@@ -72,6 +72,8 @@ h2::after {
 p {
   margin-bottom: 1.5rem;
   color: var(--gray);
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
 
 /* ================ */
