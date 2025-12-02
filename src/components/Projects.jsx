@@ -7,7 +7,9 @@ const Projects = () => {
     <h2>Software Projects</h2>
       <div className="project">
         <h3>Phishing Website Detection</h3>
-        <a href="https://github.com/hlin0023/phishing-detectionML" target="_blank" rel="noopener noreferrer">Machine Learning Project</a>
+        <div className="project-links">
+          <a href="https://github.com/hlin0023/phishing-detectionML" target="_blank" rel="noopener noreferrer">Machine Learning Project</a>
+        </div>
         <p className="tech">Python • May 2025 </p>
         <ul>
           <li>Built an ML pipeline to detect phishing websites using engineered features from URLs, page titles, and HTML metadata.</li>
@@ -20,13 +22,10 @@ const Projects = () => {
 
       <div className="project">
         <h3>Hotel Reservation System</h3>
-        <div className="contact-links">
+        <div className="project-links">
           <a href="https://hlin0023.github.io/hotel-booking-project/" target="_blank" rel="noopener noreferrer">access here</a>
-          <a> </a>
           <a href="https://github.com/hlin0023/hotel-booking-project/tree/main" target="_blank" rel="noopener noreferrer">code</a>
-          <a> </a>
           <a href="https://github.com/hlin0023/Hotel-Booking-System/tree/main/python%20version%20code" target="_blank" rel="noopener noreferrer">python</a>
-          <a> </a>
           <a href="https://github.com/hlin0023/Hotel-Booking-System" target="_blank" rel="noopener noreferrer">C#</a>
         </div>
         <p className="tech">C# / Python • Feburary 2024 - March 2024</p>
@@ -40,9 +39,10 @@ const Projects = () => {
 
       <div className="project">
         <h3>Tripo | IOS Developer</h3>
-        <a href="https://www.figma.com/proto/dylExBP52fIbJAFc6rHGTy/Untitled?node-id=1-2&starting-point-node-id=1%3A2" target="_blank" rel="noopener noreferrer">App figma show</a>
-        <a> </a>
-        <a href="https://github.com/hlin0023/IosTravelApp" target="_blank" rel="noopener noreferrer">code</a>
+        <div className="project-links">
+          <a href="https://www.figma.com/proto/dylExBP52fIbJAFc6rHGTy/Untitled?node-id=1-2&starting-point-node-id=1%3A2" target="_blank" rel="noopener noreferrer">App figma show</a>
+          <a href="https://github.com/hlin0023/IosTravelApp" target="_blank" rel="noopener noreferrer">code</a>
+        </div>
         <p className="tech">Swift / Figma • March 2023 - Jul 2023</p>
         <ul>
           <li>Developed <strong>CI/CD pipeline</strong> for deployment</li>
@@ -52,7 +52,9 @@ const Projects = () => {
 
       <div className="project">
         <h3>Website Game</h3>
-        <a href="https://github.com/hlim0023/frogger/tree/main" target="_blank" rel="noopener noreferrer">code</a>
+        <div className="project-links">
+          <a href="https://github.com/hlim0023/frogger/tree/main" target="_blank" rel="noopener noreferrer">code</a>
+        </div>
         <p className="tech">TypeScript • March 2023 </p>
         <ul>
           <li>Leveraged DOM manipulation and reactive programming to manage keyboard input, collisions, animations, and level progression.</li>
@@ -63,7 +65,9 @@ const Projects = () => {
 
       <div className="project">
         <h3>Applied Machine Learning Algorithms</h3>
-        <a href="https://github.com/hlin0023/machine-learning-algorithms-" target="_blank" rel="noopener noreferrer">code</a>
+        <div className="project-links">
+          <a href="https://github.com/hlin0023/machine-learning-algorithms-" target="_blank" rel="noopener noreferrer">code</a>
+        </div>
         <p className="tech">Python • April 2025 </p>
         <ul>
           <li>Implemented and evaluated classifiers (<strong>Decision Tree</strong>, <strong>Naive Bayes</strong>, <strong>Logistic Regression</strong>) on real datasets.</li>
@@ -75,7 +79,9 @@ const Projects = () => {
 
       <div className="project">
         <h3>Amazon Video Games Dataset Analysis(Data Analysis) </h3>
-        <a href="https://github.com/hlin0023/snap" target="_blank" rel="noopener noreferrer">Jupyter Notebook</a>
+        <div className="project-links">
+          <a href="https://github.com/hlin0023/snap" target="_blank" rel="noopener noreferrer">Jupyter Notebook</a>
+        </div>
         <p className="tech">Python • April 2024 </p>
         <ul>
           <li>Processed and cleaned data using Python libraries such as <strong>Pandas</strong> and <strong>Matplotlib</strong>, ensuring accuracy for insights and visualisations.</li>
@@ -87,7 +93,9 @@ const Projects = () => {
 
       <div className="project">
         <h3>Informed Visual Intervention Tool</h3>
-        <a href="https://github.com/hlim0023/Android-Application" target="_blank" rel="noopener noreferrer">Android Software(Java)</a>
+        <div className="project-links">
+          <a href="https://github.com/hlim0023/Android-Application" target="_blank" rel="noopener noreferrer">Android Software(Java)</a>
+        </div>
         <p className="tech">Android Studio Java •  October 2022 - June 2023 </p>
         <ul>
           <li>Led 3 developers in <strong>Agile sprints</strong>, delivering the Android app <strong>2 weeks early</strong> by prioritizing critical path tasks and resolving 15+ blockers.</li>
@@ -100,7 +108,9 @@ const Projects = () => {
 
       <div className="project">
         <h3>Lambda Calculus Parser (Functional Programming) </h3>
-        <a href="https://github.com/hlin0023/snap" target="_blank" rel="noopener noreferrer"> Haskell</a>
+        <div className="project-links">
+          <a href="https://github.com/hlin0023/snap" target="_blank" rel="noopener noreferrer">Haskell</a>
+        </div>
         <p className="tech">Haskell • Oct 2022 – Dec 2022 </p>
         <ul>
           <li>Designed and implemented a parser for <strong>Lambda Calculus expressions</strong> using parser combinators and recursive descent techniques.</li>

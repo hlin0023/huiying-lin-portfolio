@@ -1,4 +1,23 @@
 /* Projects.css */
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  color: #4361ee;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.project-links a:hover {
+  color: #3a0ca3;
+  text-decoration: underline;
+}
+
 .header {
   position: sticky;
   top: 0;
