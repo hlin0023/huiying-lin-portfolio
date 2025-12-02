@@ -12,8 +12,8 @@ const Projects = () => {
         <ul>
           <li>Built an ML pipeline to detect phishing websites using engineered features from URLs, page titles, and HTML metadata.</li>
           <li>Applied feature selection (correlation, MI, chi-square) to reduce noise and improve generalisation across 5-fold CV.</li>
-          <li>Evaluated Naive Bayes, Decision Tree, and SVM models; achieved over 98% accuracy, with Decision Tree performing best.</li>
-          <li>Tuned models using nested cross-validation and GridSearchCV, demonstrating strong understanding of ML model optimisation.</li>
+          <li>Evaluated Naive Bayes, Decision Tree, and SVM models; achieved <strong>over 98% accuracy</strong>, with Decision Tree performing best.</li>
+          <li>Tuned models using <strong>GridSearchCV</strong>, demonstrating strong understanding of ML model optimisation.</li>
           <li>Developed sentiment-based and financial indicator features to enhance model interpretability and predictive power.</li>
         </ul>
       </div>
@@ -31,10 +31,10 @@ const Projects = () => {
         </div>
         <p className="tech">C# / Python • Feburary 2024 - March 2024</p>
         <ul>
-          <li>Implemented in React js</li>
+          <li>Implemented in <strong>React js</strong></li>
           <li>Engineered modular, object-oriented backend solution</li>
           <li>Implemented date-range conflict algorithm to prevent overbooking</li>
-          <li>version for python and C++ version also implemented</li>
+          <li>version for Python and C++ version also implemented</li>
         </ul>
       </div>
 
@@ -45,7 +45,7 @@ const Projects = () => {
         <a href="https://github.com/hlin0023/IosTravelApp" target="_blank" rel="noopener noreferrer">code</a>
         <p className="tech">Swift / Figma • March 2023 - Jul 2023</p>
         <ul>
-          <li>Developed CI/CD pipeline for deployment</li>
+          <li>Developed <strong>CI/CD pipeline</strong> for deployment</li>
           <li>Integrated APIs for real-time geolocation and currency conversion</li>
         </ul>
       </div>
@@ -66,7 +66,7 @@ const Projects = () => {
         <a href="https://github.com/hlin0023/machine-learning-algorithms-" target="_blank" rel="noopener noreferrer">code</a>
         <p className="tech">Python • April 2025 </p>
         <ul>
-          <li>Implemented and evaluated classifiers (Decision Tree, Naive Bayes, Logistic Regression) on real datasets.</li>
+          <li>Implemented and evaluated classifiers (<strong>Decision Tree</strong>, <strong>Naive Bayes</strong>, <strong>Logistic Regression</strong>) on real datasets.</li>
           <li>Applied Naive Bayes to discrete data and derived MLE for exponential distributions.</li>
           <li>Trained linear regression models to study generalization and model complexity using MSE.</li>
 
@@ -78,8 +78,8 @@ const Projects = () => {
         <a href="https://github.com/hlin0023/snap" target="_blank" rel="noopener noreferrer">Jupyter Notebook</a>
         <p className="tech">Python • April 2024 </p>
         <ul>
-          <li>Processed and cleaned data using Python libraries such as Pandas and Matplotlib, ensuring accuracy for insights and visualisations.</li>
-          <li>Created a word cloud to analyse popular themes in user reviews, leveraging text processing for sentiment analysis with NLTK.</li>
+          <li>Processed and cleaned data using Python libraries such as <strong>Pandas</strong> and <strong>Matplotlib</strong>, ensuring accuracy for insights and visualisations.</li>
+          <li>Created a word cloud to analyse popular themes in user reviews, leveraging text processing for <strong>sentiment analysis</strong> with NLTK.</li>
           <li>Built a simple classifier to categorise reviews as positive or negative based on overall ratings, demonstrating foundational machine learning concepts.</li>
 
         </ul>
@@ -90,9 +90,9 @@ const Projects = () => {
         <a href="https://github.com/hlim0023/Android-Application" target="_blank" rel="noopener noreferrer">Android Software(Java)</a>
         <p className="tech">Android Studio Java •  October 2022 - June 2023 </p>
         <ul>
-          <li>Led 3 developers in Agile sprints, delivering the Android app 2 weeks early by prioritizing critical path tasks and resolving 15+ blockers.</li>
-          <li> Engineered modular Java classes following OOP best practices. .</li>
-          <li>Conducted daily standups and code reviews, ensuring adherence to Java best practices and reducing post-release bugs by 25%.</li>
+          <li>Led 3 developers in <strong>Agile sprints</strong>, delivering the Android app <strong>2 weeks early</strong> by prioritizing critical path tasks and resolving 15+ blockers.</li>
+          <li>Engineered modular Java classes following OOP best practices.</li>
+          <li>Conducted daily standups and code reviews, ensuring adherence to Java best practices and reducing <strong>post-release bugs by 25%</strong>.</li>
         </ul>
       </div>
 
@@ -103,8 +103,8 @@ const Projects = () => {
         <a href="https://github.com/hlin0023/snap" target="_blank" rel="noopener noreferrer"> Haskell</a>
         <p className="tech">Haskell • Oct 2022 – Dec 2022 </p>
         <ul>
-          <li>Designed and implemented a parser for Lambda Calculus expressions using parser combinators and recursive descent techniques.</li>
-          <li>Developed separate parsers for long and short lambda expressions, leveraging Applicative, Monad, and Functor interfaces..</li>
+          <li>Designed and implemented a parser for <strong>Lambda Calculus expressions</strong> using parser combinators and recursive descent techniques.</li>
+          <li>Developed separate parsers for long and short lambda expressions, leveraging Applicative, Monad, and Functor interfaces.</li>
           <li>Extended the parser to support logical expressions and functional extensions like control structures and list operations.</li>
 
         </ul>
