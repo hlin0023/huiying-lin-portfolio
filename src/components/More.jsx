@@ -9,10 +9,11 @@ import image6 from '../img/intern2.jpg'
 
 import casual1 from '../img/gym.jpg'
 import casual2 from '../img/running.jpg'
-import casual3 from '../img/badminton.jpg'
-import casual4 from '../img/swimming.jpg'
-import casual5 from '../img/coffee.jpg'
-import casual6 from '../img/cocktail.jpg'
+import casual3 from '../img/hiking.jpg'
+// import casual3 from '../img/badminton.jpg'
+// import casual4 from '../img/swimming.jpg'
+// import casual5 from '../img/coffee.jpg'
+// import casual6 from '../img/cocktail.jpg'
 
 const galleryImages = [
   {
@@ -69,27 +70,27 @@ const galleryCasualImages = [
   {
     id: 3,
     src: casual3,
-    alt: 'Badmintion',
-    caption: 'Badmintion'
-  },
-  {
-    id: 4,
-    src: casual4,
-    alt: 'Swimming',
-    caption: 'Swimming'
-  },
-  {
-    id: 5,
-    src: casual5,
-    alt: 'Coffee',
-    caption: 'Making Coffee'
-  },
-  {
-    id: 6,
-    src: casual6,
-    alt: 'Cocktails',
-    caption: 'Making Cocktails'
+    alt: 'Hiking',
+    caption: 'Hiking'
   }
+  // {
+  //   id: 4,
+  //   src: casual4,
+  //   alt: 'Swimming',
+  //   caption: 'Swimming'
+  // },
+  // {
+  //   id: 5,
+  //   src: casual5,
+  //   alt: 'Coffee',
+  //   caption: 'Making Coffee'
+  // },
+  // {
+  //   id: 6,
+  //   src: casual6,
+  //   alt: 'Cocktails',
+  //   caption: 'Making Cocktails'
+  // }
 ];
 
 const More = () => {
