@@ -19,6 +19,16 @@ const Experience = () => {
       </div>
 
       <div className="job">
+        <h3>Monash University  </h3>
+        <p className="job-title"> IT Support Officer • October 2025 – Present </p>
+        <ul>
+          <li>Provide first-line technical support to faculty and students, troubleshooting hardware, software, and network issues across multiple systems.</li>
+          <li>Maintain and update internal IT documentation and process automation tools to streamline request handling.</li>
+          <li>Collaborate with system administrators to deploy and test internal software tools used by staff and labs.</li>
+        </ul>
+      </div>
+
+      <div className="job">
         <h3>TikTok Ltd. (E-Commerce department)</h3>
         <p className="job-title">Back-end Developer Intern • Oct 2021 - Mar 2022</p>
         <ul>
