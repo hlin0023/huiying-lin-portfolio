@@ -1,28 +1,24 @@
-/* Experience.css */
-.header {
-  position: sticky;
-  top: 0;
-  background: #2c3e50;
-  padding: 1rem;
-  z-index: 100;
+.experience {
+  text-align: left;
 }
 
-.header nav {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+.job {
+  margin-bottom: 2.5rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(20, 33, 61, 0.08);
+  border-left: 4px solid #4361ee;
 }
 
-.header button {
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
+.job h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.job-title {
+  display: block;
   font-size: 1rem;
-  padding: 0.5rem 1rem;
-  transition: color 0.3s ease;
-}
-
-.header button:hover {
-  color: #3498db;
+  margin-bottom: 1rem;
+  color: #6c757d;
 }

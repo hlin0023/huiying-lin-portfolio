@@ -1,28 +1,15 @@
-/* About.css */
-.header {
-  position: sticky;
-  top: 0;
-  background: #2c3e50;
-  padding: 1rem;
-  z-index: 100;
+.about {
+  text-align: center;
 }
 
-.header nav {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+.about h2 {
+  margin-bottom: 1.5rem;
 }
 
-.header button {
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  transition: color 0.3s ease;
-}
-
-.header button:hover {
-  color: #3498db;
+.about p {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #4b5563;
+  font-size: 1.15rem;
+  line-height: 1.85;
 }

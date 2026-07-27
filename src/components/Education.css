@@ -1,28 +1,21 @@
-/* Education.css */
-.header {
-  position: sticky;
-  top: 0;
-  background: #2c3e50;
-  padding: 1rem;
-  z-index: 100;
+.education {
+  text-align: left;
 }
 
-.header nav {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+.education-item {
+  background: white;
+  padding: 2rem;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(20, 33, 61, 0.08);
+  border: 1px solid rgba(67, 97, 238, 0.08);
 }
 
-.header button {
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  transition: color 0.3s ease;
+.education-item h3 {
+  font-size: 1.5rem;
 }
 
-.header button:hover {
-  color: #3498db;
+.institution {
+  font-size: 1.05rem;
+  color: #4361ee;
+  font-weight: 600;
 }

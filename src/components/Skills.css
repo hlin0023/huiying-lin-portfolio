@@ -1,28 +1,31 @@
-/* Skills.css */
-.header {
-  position: sticky;
-  top: 0;
-  background: #2c3e50;
-  padding: 1rem;
-  z-index: 100;
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2.5rem;
 }
 
-.header nav {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+.skill-category {
+  background: linear-gradient(180deg, #ffffff 0%, #f8faff 100%);
+  border: 1px solid rgba(67, 97, 238, 0.1);
+  border-radius: 18px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(20, 33, 61, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.header button {
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
+.skill-category:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(20, 33, 61, 0.12);
+}
+
+.skill-category h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.skill-category p {
   font-size: 1rem;
-  padding: 0.5rem 1rem;
-  transition: color 0.3s ease;
-}
-
-.header button:hover {
-  color: #3498db;
+  margin-bottom: 0;
+  line-height: 1.7;
 }
