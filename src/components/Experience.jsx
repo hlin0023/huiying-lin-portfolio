@@ -19,10 +19,12 @@ const Experience = () => {
 
 
       <div className="job">
-        <h3>Monash University </h3>
-        <p className="job-title"> IT Support Officer (Casual) • October 2025 - December 2025 </p>
+        <h3>Monash University  </h3>
+        <p className="job-title"> IT Support Officer • October 2025 – Present </p>
         <ul>
-          <li>Provide first-line IT support to students and staff, troubleshooting software, hardware, and system issues across university environments. And assist students in understanding systems.</li>
+          <li>Provide first-line technical support to faculty and students, troubleshooting hardware, software, and network issues across multiple systems.</li>
+          <li>Maintain and update internal IT documentation and process automation tools to streamline request handling.</li>
+          <li>Collaborate with system administrators to deploy and test internal software tools used by staff and labs.</li>
         </ul>
       </div>
 
@@ -45,16 +47,6 @@ const Experience = () => {
           <li>Designed and maintained backend features and APIs for a production web app (<strong>Next.js</strong>, Supabase, Sanity CMS).</li>
           <li>Collaborated on CI pipelines and code reviews in Bitbucket, improving deployment reliability.</li>
           <li>Built data visualisation dashboards and internal tools to support operational insights.</li>
-        </ul>
-      </div>
-
-      <div className="job">
-        <h3>Monash University  </h3>
-        <p className="job-title"> IT Support Officer • October 2025 – Present </p>
-        <ul>
-          <li>Provide first-line technical support to faculty and students, troubleshooting hardware, software, and network issues across multiple systems.</li>
-          <li>Maintain and update internal IT documentation and process automation tools to streamline request handling.</li>
-          <li>Collaborate with system administrators to deploy and test internal software tools used by staff and labs.</li>
         </ul>
       </div>
 

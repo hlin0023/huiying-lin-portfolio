@@ -5,6 +5,23 @@ const Projects = () => {
   return (
     <section className="projects" id="projects">  
     <h2>Software Projects</h2>
+
+
+      <div className="project">
+        <h3>CNN-based Nutrition Analysis from RGB-D Food Images</h3>
+        <div className="project-links">
+          <a href="https://github.com/hlin0023/CNN-based-Models-for-Nutrition-Analysis-from-RGB-D-Food-Images" target="_blank" rel="noopener noreferrer">Computer Vision Project</a>
+        </div>
+        <p className="tech">Python • TensorFlow/Keras • Computer Vision • 2026</p>
+        <ul>
+          <li>Developed CNN-based models to estimate food calories from the <strong>Nutrition5K</strong> RGB-D dataset using TensorFlow and Keras.</li>
+          <li>Implemented and compared three architectures: <strong>RGB-only</strong>, <strong>RGB-D early fusion</strong> (4-channel input), and <strong>RGB-D late fusion</strong> dual-stream networks.</li>
+          <li>Built end-to-end training and evaluation pipelines with reproducible experiments, model validation, and automated Kaggle prediction generation.</li>
+          <li>Leveraged depth information alongside RGB images to investigate its impact on calorie estimation accuracy in food image analysis.</li>
+          <li>Optimised GPU-based training on Google Colab and managed large-scale image preprocessing and data loading workflows.</li>
+        </ul>
+      </div>
+
       <div className="project">
         <h3>Phishing Website Detection</h3>
         <div className="project-links">
