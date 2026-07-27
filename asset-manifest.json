@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/huiying-lin-portfolio/static/css/main.77e00098.css",
-    "main.js": "/huiying-lin-portfolio/static/js/main.0fa83570.js",
+    "main.css": "/huiying-lin-portfolio/static/css/main.38443307.css",
+    "main.js": "/huiying-lin-portfolio/static/js/main.f35f693c.js",
     "static/media/hero.jpg": "/huiying-lin-portfolio/static/media/hero.da161493b30300c4f01e.jpg",
     "static/media/intern.jpg": "/huiying-lin-portfolio/static/media/intern.3d5e4830d52ed6dfddab.jpg",
     "static/media/hero2.jpg": "/huiying-lin-portfolio/static/media/hero2.746b8d395450d165579b.jpg",
@@ -12,11 +12,11 @@
     "static/media/hk2.jpg": "/huiying-lin-portfolio/static/media/hk2.664e0e260c60d09ab703.jpg",
     "static/media/hk1.jpg": "/huiying-lin-portfolio/static/media/hk1.571dd018cc16466285f3.jpg",
     "index.html": "/huiying-lin-portfolio/index.html",
-    "main.77e00098.css.map": "/huiying-lin-portfolio/static/css/main.77e00098.css.map",
-    "main.0fa83570.js.map": "/huiying-lin-portfolio/static/js/main.0fa83570.js.map"
+    "main.38443307.css.map": "/huiying-lin-portfolio/static/css/main.38443307.css.map",
+    "main.f35f693c.js.map": "/huiying-lin-portfolio/static/js/main.f35f693c.js.map"
   },
   "entrypoints": [
-    "static/css/main.77e00098.css",
-    "static/js/main.0fa83570.js"
+    "static/css/main.38443307.css",
+    "static/js/main.f35f693c.js"
   ]
 }
