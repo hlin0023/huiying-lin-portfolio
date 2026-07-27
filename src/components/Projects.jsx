@@ -6,6 +6,20 @@ const Projects = () => {
     <section className="projects" id="projects">  
     <h2>Software Projects</h2>
 
+      <div className="project">
+        <h3>Climate Change Automated Fact-Checking System</h3>
+        <div className="project-links">
+          <a href="https://github.com/hlin0023/Verifying-Climate-Change-using-NLP-Project-/tree/main" target="_blank" rel="noopener noreferrer">NLP & LLM Project</a>
+        </div>
+        <p className="tech">Python • PyTorch • Hugging Face • NLP • 2026</p>
+        <ul>
+          <li>Developed an automated fact-checking system for climate change claims using transformer-based NLP models and evidence retrieval techniques.</li>
+          <li>Implemented and compared <strong>TF-IDF</strong>, <strong>MiniLM dense retrieval</strong>, and <strong>Cross-Encoder reranking</strong> pipelines to retrieve supporting evidence.</li>
+          <li>Fine-tuned and evaluated <strong>RoBERTa</strong>, <strong>GPT-2 with LoRA</strong>, and <strong>Gemma</strong> models for multi-class claim verification, comparing accuracy, F1-score, and robustness.</li>
+          <li>Optimised model performance through hyperparameter tuning, class balancing, and efficient inference under limited computational resources.</li>
+          <li>Built an end-to-end retrieval and classification pipeline for evidence-based claim verification, following a Retrieval-Augmented Generation (RAG)-style workflow.</li>
+        </ul>
+      </div>
 
       <div className="project">
         <h3>CNN-based Nutrition Analysis from RGB-D Food Images</h3>
