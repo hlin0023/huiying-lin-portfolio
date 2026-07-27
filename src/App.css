@@ -45,6 +45,89 @@ main {
   padding-top: 88px;
 }
 
+.page-controls {
+  max-width: 1200px;
+  margin: 1rem auto 0;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.control-button,
+.section-toggle {
+  border: 1px solid rgba(67, 97, 238, 0.18);
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--dark);
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.8rem 1.3rem;
+  font-size: 0.98rem;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+
+.control-button:hover,
+.section-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(67, 97, 238, 0.35);
+}
+
+.control-button.primary {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white;
+}
+
+.key-points-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.key-point-card {
+  background: linear-gradient(180deg, #ffffff 0%, #f8faff 100%);
+  border: 1px solid rgba(67, 97, 238, 0.08);
+  border-radius: 18px;
+  padding: 1.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.key-point-card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.65rem;
+}
+
+.key-point-card p,
+.card-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.card-subtitle {
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.section-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.75rem;
+}
+
+.section-toggle {
+  min-width: 160px;
+}
+
+.section-toggle,
+.control-button {
+  appearance: none;
+}
+
 /* Smooth scroll padding for fixed header */
 section {
   scroll-margin-top: 80px;

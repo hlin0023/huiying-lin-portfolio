@@ -93,47 +93,85 @@ const galleryCasualImages = [
   // }
 ];
 
-const More = () => {
+const previewHighlights = [
+  {
+    title: 'Professional moments',
+    text: 'Graduation, research, internship, and conference snapshots.',
+  },
+  {
+    title: 'Personal life',
+    text: 'Gym, running, and hiking photos that show life outside of work.',
+  },
+];
+
+const More = ({ isExpanded, onToggle }) => {
   return (
     <section id="more" className="section-alt">
       <div className="more-container">
         <h2>Gallery</h2>
-        <p className="section-subtitle">Some moments from my journey</p>
-        
-        <div className="gallery-grid">
-          {galleryImages.map((image) => (
-            <div key={image.id} className="gallery-item">
-              <img 
-                src={image.src} 
-                alt={image.alt} 
-                className="gallery-image"
-                loading="lazy"
-              />
-              <div className="image-caption">
-                <p>{image.caption}</p>
-              </div>
+        {!isExpanded ? (
+          <>
+            <p className="section-subtitle">Some moments from my journey</p>
+            <div className="key-points-grid">
+              {previewHighlights.map((highlight) => (
+                <article className="key-point-card" key={highlight.title}>
+                  <h3>{highlight.title}</h3>
+                  <p>{highlight.text}</p>
+                </article>
+              ))}
             </div>
-          ))}
-        </div>
-
-        <p className="section-subtitle">Something beyound my study and work</p>
-
-
-        <div className="gallery-grid">
-          {galleryCasualImages.map((image) => (
-            <div key={image.id} className="gallery-item">
-              <img 
-                src={image.src} 
-                alt={image.alt} 
-                className="gallery-image"
-                loading="lazy"
-              />
-              <div className="image-caption">
-                <p>{image.caption}</p>
-              </div>
+            <div className="section-actions">
+              <button type="button" className="section-toggle" onClick={onToggle} aria-expanded={isExpanded}>
+                View more
+              </button>
             </div>
-          ))}
-        </div>
+          </>
+        ) : (
+          <>
+            <p className="section-subtitle">Some moments from my journey</p>
+            
+            <div className="gallery-grid">
+              {galleryImages.map((image) => (
+                <div key={image.id} className="gallery-item">
+                  <img 
+                    src={image.src} 
+                    alt={image.alt} 
+                    className="gallery-image"
+                    loading="lazy"
+                  />
+                  <div className="image-caption">
+                    <p>{image.caption}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <p className="section-subtitle">Something beyound my study and work</p>
+
+
+            <div className="gallery-grid">
+              {galleryCasualImages.map((image) => (
+                <div key={image.id} className="gallery-item">
+                  <img 
+                    src={image.src} 
+                    alt={image.alt} 
+                    className="gallery-image"
+                    loading="lazy"
+                  />
+                  <div className="image-caption">
+                    <p>{image.caption}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="section-actions">
+              <button type="button" className="section-toggle" onClick={onToggle} aria-expanded={isExpanded}>
+                Show less
+              </button>
+            </div>
+          </>
+        )}
 
       </div>
     </section>

@@ -1,11 +1,47 @@
 import React from 'react';
 import './Projects.css';
 
-const Projects = () => {
+const previewProjects = [
+  {
+    title: 'Climate change fact checking',
+    text: 'Transformer-based NLP and evidence retrieval for claim verification.',
+  },
+  {
+    title: 'Nutrition analysis from food images',
+    text: 'CNN models for calorie estimation from RGB-D data.',
+  },
+  {
+    title: 'Phishing website detection',
+    text: 'Feature engineering and classification with over 98% accuracy.',
+  },
+  {
+    title: 'Hotel reservation system',
+    text: 'OOP backend with date-conflict handling and multi-language versions.',
+  },
+];
+
+const Projects = ({ isExpanded, onToggle }) => {
   return (
     <section className="projects" id="projects">  
     <h2>Software Projects</h2>
-
+      {!isExpanded ? (
+        <>
+          <div className="key-points-grid project-preview-grid">
+            {previewProjects.map((project) => (
+              <article className="key-point-card" key={project.title}>
+                <h3>{project.title}</h3>
+                <p>{project.text}</p>
+              </article>
+            ))}
+          </div>
+          <div className="section-actions">
+            <button type="button" className="section-toggle" onClick={onToggle} aria-expanded={isExpanded}>
+              View more
+            </button>
+          </div>
+        </>
+      ) : (
+        <>
       <div className="project">
         <h3>Climate Change Automated Fact-Checking System</h3>
         <div className="project-links">
@@ -150,6 +186,14 @@ const Projects = () => {
 
         </ul>
       </div>
+
+          <div className="section-actions">
+            <button type="button" className="section-toggle" onClick={onToggle} aria-expanded={isExpanded}>
+              Show less
+            </button>
+          </div>
+        </>
+      )}
 
 
     </section>
