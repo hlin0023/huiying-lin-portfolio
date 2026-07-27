@@ -5,6 +5,36 @@ const Experience = () => {
   return (
     <section className="experience" id="experience">
       <h2>Professional Experience</h2>
+
+
+      <div className="job">
+        <h3>Adica Insurance </h3>
+        <p className="job-title"> Data Engineer • December 2025 - Present </p>
+        <ul>
+          <li>Assist in building and maintaining data pipelines to extract, transform, and prepare structured datasets for analytical and statistical use.</li>
+          <li>Perform exploratory data analysis and basic statistical summaries to support reporting and business insights.</li>
+          <li>Ensure data quality, integrity, and consistency through validation checks, data profiling, and documentation of datasets and processing logic.</li>
+        </ul>
+      </div>
+
+
+      <div className="job">
+        <h3>Monash University </h3>
+        <p className="job-title"> IT Support Officer (Casual) • October 2025 - December 2025 </p>
+        <ul>
+          <li>Provide first-line IT support to students and staff, troubleshooting software, hardware, and system issues across university environments. And assist students in understanding systems.</li>
+        </ul>
+      </div>
+
+      <div className="job">
+        <h3>Enroute Tech </h3>
+        <p className="job-title"> Software Engineer • October 2025 - December 2025 </p>
+        <ul>
+          <li>Develop and maintain frontend and backend features using React, TypeScript, Next.js, applying strong problem-solving and debugging skills.</li>
+          <li>Collaborate closely with engineers to explain technical solutions, review code, and support issue resolution in a team environment.</li>
+        </ul>
+      </div>
+
       
       <div className="job">
         <h3>Blackhall & Pearl </h3>
